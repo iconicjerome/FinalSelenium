@@ -9,6 +9,7 @@ public class HomePage {
     //initialize webdriver
     public WebDriver driver;
     //initialize object with constructor
+    //new word
     public HomePage(WebDriver driver){
         this.driver = driver;
         //use the line below to remove the nullpointer exception;
