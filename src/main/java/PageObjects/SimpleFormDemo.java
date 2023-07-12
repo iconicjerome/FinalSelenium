@@ -5,12 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class SimpleFormDemo {
     //initialize webdriver
     public WebDriver driver;
     //initialize object with constructor
-    //new word
-    public HomePage(WebDriver driver){
+
+    public SimpleFormDemo(WebDriver driver){
         this.driver = driver;
         //use the line below to remove the nullpointer exception;
         //I don't know why, but it works lol

@@ -1,7 +1,7 @@
 package Regression;
 
 
-import PageObjects.HomePage;
+import PageObjects.SimpleFormDemo;
 import Utils.Globals;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -12,19 +12,19 @@ public class testSimpleFormDemo {
     //initialize webdriver
     WebDriver driver;
     //initialize pageobject page
-    HomePage homePage;
+    SimpleFormDemo simpleFormDemo;
 
     //use beforeTest annotation to launch browser before each testcase is run
     @BeforeTest
     public void launchBrowser(){
         driver = Globals.StartBrowser("https://www.lambdatest.com/selenium-playground/");
-        homePage = new HomePage(driver);
+        simpleFormDemo = new SimpleFormDemo(driver);
 
     }
     @Test
     public void clickSimpleForm(){
         try{
-            homePage.clickElement();
+            simpleFormDemo.clickElement();
         }catch (NullPointerException e){
             System.out.println(e);
         }
