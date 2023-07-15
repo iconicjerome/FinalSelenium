@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="First Commit!" />
+    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Refactored class name to SimpleFormDemo">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,14 +43,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.testSimpleFormDemo">
+}</component>
+  <component name="RunManager" selected="TestNG.C:/Users/USER/IdeaProjects/FinalSelenium/testng.xml">
+    <configuration name="C:/Users/USER/IdeaProjects/FinalSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFormDemoElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Smoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Smoke" />
+      <option name="MAIN_CLASS_NAME" value="Smoke.SimpleFormDemoElements" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFormDemoElements.checkElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Smoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Smoke" />
+      <option name="MAIN_CLASS_NAME" value="Smoke.SimpleFormDemoElements" />
+      <option name="METHOD_NAME" value="checkElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSimpleFormDemo (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Regression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Regression" />
+      <option name="MAIN_CLASS_NAME" value="Regression.testSimpleFormDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testSimpleFormDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewTest" />
       <extension name="coverage">
@@ -61,28 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testSimpleFormDemo.clickSimpleForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NewTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Regression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Regression" />
-      <option name="MAIN_CLASS_NAME" value="Regression.testSimpleFormDemo" />
-      <option name="METHOD_NAME" value="clickSimpleForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/FinalSelenium/testng.xml" />
+        <item itemvalue="TestNG.SimpleFormDemoElements" />
+        <item itemvalue="TestNG.SimpleFormDemoElements.checkElements" />
+        <item itemvalue="TestNG.testSimpleFormDemo (3)" />
         <item itemvalue="TestNG.testSimpleFormDemo" />
-        <item itemvalue="TestNG.testSimpleFormDemo.clickSimpleForm" />
       </list>
     </recent_temporary>
   </component>
@@ -102,11 +155,26 @@
       <option name="project" value="LOCAL" />
       <updated>1689205146238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit!">
+      <created>1689205330914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689205330914</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactored class name to SimpleFormDemo">
+      <created>1689205664955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689205664955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit!" />
+    <MESSAGE value="Refactored class name to SimpleFormDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored class name to SimpleFormDemo" />
   </component>
 </project>

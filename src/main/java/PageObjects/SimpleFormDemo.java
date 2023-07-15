@@ -20,9 +20,19 @@ public class SimpleFormDemo {
     //rollout pageobjects i.e the page elements
     @FindBy(xpath = "//*[@id=\"__next\"]/div/section[2]/div/ul/li[1]/a")
     public WebElement simpleFormDemo;
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/section[2]/div/div/div/div[1]/div[1]")
+    public WebElement singleInputFieldText;
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/section[2]/div/div/div/div[1]/div[2]/div/div[1]/p")
+    public WebElement enterMessageText;
+    @FindBy(xpath="//*[@id=\"user-message\"]")
+    public WebElement enterMessageTextbox;
+
+    @FindBy(xpath = "//*[@id=\"showInput\"]")
+    public WebElement getCheckedValueBtn;
 
     //method to interact with elements
     public void clickElement(){
+
         simpleFormDemo.click();
     }
 }
