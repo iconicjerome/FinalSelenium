@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 //the class should extend Globals so you can initialize the driver from there
 public class testSimpleFormDemo extends Globals{
-    //initialize pageobject page
+    //initialize page object page
     SimpleFormDemo simpleFormDemo;
     @Test
     public void clickSimpleForm(){

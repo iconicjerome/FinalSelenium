@@ -1,20 +1,16 @@
 package Utils;
 
-import PageObjects.SimpleFormDemo;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterSuite;
-
 import org.testng.annotations.BeforeSuite;
 
 
 public class Globals {
     public static WebDriver driver;
-    SimpleFormDemo simpleFormDemo;
-
     //create method to start browser
 
     @BeforeSuite

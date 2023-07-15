@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Refactored class name to SimpleFormDemo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Refactored test to make use of test suite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" afterDir="false" />
     </list>
@@ -169,12 +166,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689205664955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactored test to make use of test suite">
+      <created>1689432487048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689432487048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit!" />
     <MESSAGE value="Refactored class name to SimpleFormDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored class name to SimpleFormDemo" />
+    <MESSAGE value="Refactored test to make use of test suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored test to make use of test suite" />
   </component>
 </project>
