@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Refactored test to make use of test suite">
+    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Started making use of test data">
+      <change afterPath="$PROJECT_DIR$/Excel/data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" afterDir="false" />
     </list>
@@ -37,17 +37,20 @@
     </option>
   </component>
   <component name="ProjectId" id="2SUOVHnEUYQ1eg85oqicB7nub57" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.C:/Users/USER/IdeaProjects/FinalSelenium/testng.xml">
     <configuration name="C:/Users/USER/IdeaProjects/FinalSelenium/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewTest" />
@@ -182,13 +185,22 @@
       <option name="project" value="LOCAL" />
       <updated>1689434196398</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Started making use of test data">
+      <created>1689813752647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689813752647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit!" />
     <MESSAGE value="Refactored class name to SimpleFormDemo" />
     <MESSAGE value="Refactored test to make use of test suite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored test to make use of test suite" />
+    <MESSAGE value="Started making use of test data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started making use of test data" />
   </component>
 </project>

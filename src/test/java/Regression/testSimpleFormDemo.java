@@ -2,6 +2,7 @@ package Regression;
 import PageObjects.SimpleFormDemo;
 import Utils.Globals;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
 
@@ -9,6 +10,7 @@ import java.io.IOException;
 public class testSimpleFormDemo extends Globals{
     //initialize page object page
     SimpleFormDemo simpleFormDemo;
+
     @Test(priority = 0)
     public void clickSimpleForm(){
         try{
@@ -21,8 +23,13 @@ public class testSimpleFormDemo extends Globals{
     }
 
     @Test(priority = 1)
-    public void populateSheet() throws IOException {
+    public void validateInputFieldText() throws IOException {
+        String inputMessage = getWorkbook(1,1);
         simpleFormDemo = new SimpleFormDemo(driver);
-        simpleFormDemo.enterMessageTextbox.sendKeys(getWorkbook(1,1));
+        simpleFormDemo.enterMessageTextbox.sendKeys(inputMessage);
+        simpleFormDemo.getCheckedValueBtn.click();
+        //assert that data from sheet = text displayed.
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(inputMessage, simpleFormDemo.displayMessage);
     }
 }

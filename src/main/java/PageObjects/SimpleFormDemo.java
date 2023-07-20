@@ -26,10 +26,10 @@ public class SimpleFormDemo {
     public WebElement enterMessageText;
     @FindBy(xpath="//*[@id=\"user-message\"]")
     public WebElement enterMessageTextbox;
-
     @FindBy(xpath = "//*[@id=\"showInput\"]")
     public WebElement getCheckedValueBtn;
-
+    @FindBy(xpath = "//*[@id=\"message\"]")
+    public WebElement displayMessage;
     //method to interact with elements
     public void clickElement(){
 

@@ -4,8 +4,6 @@ import PageObjects.SimpleFormDemo;
 import Utils.Globals;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
 //the class should extend Globals, so you can initialize the driver from there
 public class SimpleFormDemoElements extends Globals {
     SimpleFormDemo simpleFormDemo;
