@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Refactored test to make use of test suite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689432487048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactored test to make use of test suite">
+      <created>1689434196398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689434196398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
