@@ -40,7 +40,7 @@ public class Globals {
             //In the file path, you can use single / instead of double // so the program can run
             //in other OS
             String projectPath = System.getProperty("user.dir");
-            XSSFWorkbook workbook = new XSSFWorkbook(projectPath+"/Excel/data.xlsx");
+            XSSFWorkbook workbook = new XSSFWorkbook(projectPath+"/Resource/data.xlsx");
             //create reference for the worksheet; remember to pass the name of your sheet from the workbook
             XSSFSheet sheet = workbook.getSheet("sheet1");
             //create variable to get data from sheet
