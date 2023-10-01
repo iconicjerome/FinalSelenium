@@ -7,25 +7,38 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
 
 import java.io.IOException;
 
 
 public class Globals {
+    //add Logs
+    public static final Logger logger = LoggerFactory.getLogger(Globals.class);
     public static WebDriver driver;
     //create method to start browser
-    @BeforeSuite
-    public static WebDriver StartBrowser(){
+     @BeforeSuite
+    public WebDriver StartBrowser(){
+         try{
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().clearDriverCache().setup();
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
+        //log if browser started successfully
+         logger.info("Browser started successfully");
         driver.get("https://www.lambdatest.com/selenium-playground/");
+         logger.info("Navigated to the URL");
         return driver;
-    }
+    }catch (Exception e){
+             logger.error("Error starting the browser", e);
+             throw e;
+         }
+     }
     @AfterSuite
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);

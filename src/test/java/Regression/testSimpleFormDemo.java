@@ -16,6 +16,7 @@ public class testSimpleFormDemo extends Globals{
         try{
             simpleFormDemo = new SimpleFormDemo(driver);
             simpleFormDemo.clickElement();
+            logger.info("SimpleForm btn clicked successfully");
         }catch (NullPointerException e){
             System.out.println(e);
         }

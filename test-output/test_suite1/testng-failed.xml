@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test_suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test SimpleForm demo page(failed)">
+    <classes>
+      <class name="Regression.testSimpleFormDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickSimpleForm"/>
+          <include name="StartBrowser"/>
+          <include name="validateInputFieldText"/>
+        </methods>
+      </class> <!-- Regression.testSimpleFormDemo -->
+    </classes>
+  </test> <!-- test SimpleForm demo page(failed) -->
+  <test thread-count="5" name="test SimpleForm demo page elements(failed)">
+    <classes>
+      <class name="Smoke.SimpleFormDemoElements">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkElements"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- Smoke.SimpleFormDemoElements -->
+    </classes>
+  </test> <!-- test SimpleForm demo page elements(failed) -->
+</suite> <!-- Failed suite [test_suite1] -->

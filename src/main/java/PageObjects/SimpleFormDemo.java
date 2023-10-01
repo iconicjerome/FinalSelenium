@@ -18,7 +18,7 @@ public class SimpleFormDemo {
     }
 
     //rollout pageobjects i.e the page elements
-    @FindBy(xpath = "//*[@id=\"__next\"]/div/section[2]/div/ul/li[1]/a")
+    @FindBy(xpath = "//*[@id=\"__next\"]/div/section[2]/div/ul/li[31]/a")
     public WebElement simpleFormDemo;
     @FindBy(xpath = "//*[@id=\"__next\"]/div/section[2]/div/div/div/div[1]/div[1]")
     public WebElement singleInputFieldText;
