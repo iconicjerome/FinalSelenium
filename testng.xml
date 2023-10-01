@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "test_suite1">
+<test name = "test SimpleForm demo page">
+    <classes>
+        <class name="Regression.testSimpleFormDemo"/>
+    </classes>
+</test>
+    <test name="test SimpleForm demo page elements">
+        <classes>
+            <class name="Smoke.SimpleFormDemoElements"/>
+        </classes>
+    </test>
+</suite>

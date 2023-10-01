@@ -1,39 +1,36 @@
 package Regression;
-
-
-import PageObjects.HomePage;
+import PageObjects.SimpleFormDemo;
 import Utils.Globals;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-public class testSimpleFormDemo {
-    //initialize webdriver
-    WebDriver driver;
-    //initialize pageobject page
-    HomePage homePage;
+import java.io.IOException;
 
-    //use beforeTest annotation to launch browser before each testcase is run
-    @BeforeTest
-    public void launchBrowser(){
-        driver = Globals.StartBrowser("https://www.lambdatest.com/selenium-playground/");
-        homePage = new HomePage(driver);
+//the class should extend Globals, so you can initialize the driver from there
+public class testSimpleFormDemo extends Globals{
+    //initialize page object page
+    SimpleFormDemo simpleFormDemo;
 
-    }
-    @Test
+    @Test(priority = 0)
     public void clickSimpleForm(){
         try{
-            homePage.clickElement();
+            simpleFormDemo = new SimpleFormDemo(driver);
+            simpleFormDemo.clickElement();
+            logger.info("SimpleForm btn clicked successfully");
         }catch (NullPointerException e){
             System.out.println(e);
         }
 
     }
-    @AfterTest
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        driver.quit();
-    }
 
+    @Test(priority = 1)
+    public void validateInputFieldText() throws IOException {
+        String inputMessage = getWorkbook(1,1);
+        simpleFormDemo = new SimpleFormDemo(driver);
+        simpleFormDemo.enterMessageTextbox.sendKeys(inputMessage);
+        simpleFormDemo.getCheckedValueBtn.click();
+        //assert that data from sheet = text displayed.
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(inputMessage, simpleFormDemo.displayMessage);
+    }
 }
