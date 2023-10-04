@@ -21,6 +21,7 @@ public class Globals {
     public static final Logger logger = LoggerFactory.getLogger(Globals.class);
     public static WebDriver driver;
     //create method to start browser
+    //test out this push p
      @BeforeSuite
     public WebDriver StartBrowser(){
          try{
