@@ -4,96 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Added .bat file to run test from CLI and Jenkins">
-      <change afterPath="$PROJECT_DIR$/bin/selenium-chrome-driver-4.8.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/selenium-chrome-driver-4.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/selenium-chromium-driver-4.8.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/selenium-chromium-driver-4.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/selenium-java-4.8.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/selenium-java-4.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/slf4j-api-2.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/testng-7.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/webdrivermanager-5.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-compress-1.24.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.10.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/httpcore5-5.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/httpcore5-h2-5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-api-4.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-server-standalone-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/selenium-support-4.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/webdrivermanager-5.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Regression.testSimpleFormDemo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Smoke.SimpleFormDemoElements.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/test_suite1/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+    <list default="true" id="137647f8-cf6e-44ee-897d-c7e9caa1d941" name="Changes" comment="Used maven plugin on jenkins to run tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bat commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bat commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auto-common-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auto-service-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auto-service-annotations-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.12.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/checker-qual-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/error_prone_annotations-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jakarta.activation-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jcommander-1.82.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jtoml-2.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-api-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-api-logs-1.22.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-context-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-exporter-logging-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-common-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-logs-1.22.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-metrics-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-trace-1.22.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-semconv-1.22.0-alpha.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-api-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-chromium-driver-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v107-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v107-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v108-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v109-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v109-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v85-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v85-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-edge-driver-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-edge-driver-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-java-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-json-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-manager-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-remote-driver-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-safari-driver-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-safari-driver-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-support-4.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/selenium-support-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webdrivermanager-5.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SimpleFormDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Globals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Regression/testSimpleFormDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Smoke/SimpleFormDemoElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/test_suite1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/test_suite1/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/test_suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/test_suite1/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/test_suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/test_suite1/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/test_suite1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/test_suite1/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page elements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page elements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/test_suite1/test SimpleForm demo page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694249372162</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Used maven plugin on jenkins to run tests">
+      <created>1696167069533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696167069533</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -323,6 +242,7 @@
     <MESSAGE value="Refactored test to make use of test suite" />
     <MESSAGE value="Started making use of test data" />
     <MESSAGE value="Added .bat file to run test from CLI and Jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .bat file to run test from CLI and Jenkins" />
+    <MESSAGE value="Used maven plugin on jenkins to run tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used maven plugin on jenkins to run tests" />
   </component>
 </project>
