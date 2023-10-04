@@ -21,8 +21,7 @@ public class Globals {
     public static final Logger logger = LoggerFactory.getLogger(Globals.class);
     public static WebDriver driver;
     //create method to start browser
-    //test out this push p
-     @BeforeSuite
+      @BeforeSuite
     public WebDriver StartBrowser(){
          try{
         ChromeOptions options = new ChromeOptions();
@@ -31,7 +30,7 @@ public class Globals {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         //log if browser started successfully
-         logger.info("Browser started successfully");
+         logger.info("Browser started successfully!!!!");
         driver.get("https://www.lambdatest.com/selenium-playground/");
          logger.info("Navigated to the URL");
         return driver;
